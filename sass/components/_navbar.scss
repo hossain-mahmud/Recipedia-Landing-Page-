@@ -1,0 +1,30 @@
+@forward '../base/reset';
+@use '../util/index';
+
+.main_menu{
+    padding: 20px 0;
+    .nav_logo{
+        width: 140px;
+    }
+    ul{
+        li{
+            a{
+                font-size: 20px;
+                font-weight: 500;
+                font-family: index.$inter;
+                color: #000;
+            }
+        }
+    }
+    .nav_icon{
+        display: flex;
+        gap: 30px;
+        a{
+            font-size: 20px;
+            color: #000;
+        }
+    }
+}
+.navbar-nav {
+    gap: 50px;
+}
