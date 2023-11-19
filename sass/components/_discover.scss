@@ -32,6 +32,70 @@
             font-weight: 500;
             font-family: index.$inter;
             color: #fff;
+            transition: all linear .3s;
+            &:hover{
+                color: #000;
+            }
+        }
+    }
+}
+.discover_items{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+    .discover_item{
+        width: 375px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+        .discover_card_image{
+            height: 225px;
+            overflow: hidden;
+            position: relative;
+            img{
+                width: 100%;
+                transition: all linear .3s;
+                &:hover{
+                    transform: scale(1.1) rotate(5deg);
+                }
+            }
+            .card_image_text{
+                width: 100%;
+                padding: 18px 36px;
+                background: rgba(255, 255, 255, 0.80);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    li{
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-family: index.$inter;
+                        color: index.$secondary_color;
+                    }
+                }
+            }
+        }
+        .discover_card_text{
+            padding: 32px 18px;
+            h2{
+                font-size: 24px;
+                font-weight: 600;
+                font-family: index.$inter;
+                color: #000;
+                margin-bottom: 10px;
+            }
+            a{
+                font-size: 16px;
+                font-weight: 500;
+                font-family: index.$inter;
+                color: index.$primary_color;
+                text-decoration: underline;
+            }
         }
     }
 }
