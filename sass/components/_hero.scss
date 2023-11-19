@@ -49,7 +49,7 @@
 
     .hero_review1 {
         width: 221px;
-        padding: 7px 16px;
+        padding: 7px;
         background: #fff;
         border-radius: 11px;
         box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
@@ -57,6 +57,7 @@
         top: 273px;
         left: 267px;
         .review_text {
+            width: 100%;
             padding: 17px 21px 42px 21px;
             background: #F1F3F7;
             border-radius: 11px;
@@ -122,7 +123,7 @@
 
     .hero_review2 {
         width: 221px;
-        padding: 7px 16px;
+        padding: 7px;
         background: #fff;
         border-radius: 11px;
         box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;

@@ -1,0 +1,37 @@
+@forward "../base/index";
+@use '../util/index';
+
+#discover{
+    padding: 100px 0;
+}
+.discover_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .discover_head_text{
+        h2{
+            font-size: 30px;
+            font-weight: 600;
+            font-family: index.$inter;
+            color: #000;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            font-family: index.$inter;
+            color: index.$gray_color;
+        }
+    }
+    .discover_button{
+        a{
+            padding: 15px 40px;
+            background: index.$primary_color;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: index.$inter;
+            color: #fff;
+        }
+    }
+}
