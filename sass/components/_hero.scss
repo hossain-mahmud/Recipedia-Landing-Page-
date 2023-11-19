@@ -1,33 +1,37 @@
 @forward "../base/index";
 @use '../util/index';
 
-#hero{
-    padding: 70px 0;
+#hero {
+    padding: 40px 0;
 }
-.hero_left{
-    .hero_title{
-        h1{
+
+.hero_left {
+    .hero_title {
+        h1 {
             font-size: 60px;
             line-height: 80px;
             font-weight: 700;
             font-family: index.$inter;
             color: #000;
-            margin-bottom: 30px;
+            margin: 40px 0 30px 0;
         }
-        p{
+
+        p {
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
             font-family: index.$inter;
             color: index.$gray_color;
             margin-bottom: 60px;
-            span{
+
+            span {
                 color: index.$primary_color;
             }
         }
     }
-    .hero_button{
-        a{
+
+    .hero_button {
+        a {
             padding: 30px 43px;
             background: index.$primary_color;
             border-radius: 20px;
@@ -38,11 +42,154 @@
         }
     }
 }
-.hero_right{
-    background: url(../../images/hero_image.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 300px;
-    padding-bottom: 300px;
+
+.hero_right {
+    width: 100%;
+    position: relative;
+
+    .hero_review1 {
+        width: 221px;
+        padding: 7px 16px;
+        background: #fff;
+        border-radius: 11px;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+        position: absolute;
+        top: 273px;
+        left: 267px;
+        .review_text {
+            padding: 17px 21px 42px 21px;
+            background: #F1F3F7;
+            border-radius: 11px;
+
+            .review_star {
+                ul {
+                    display: flex;
+                    gap: 5px;
+
+                    li {
+                        i {
+                            font-size: 17px;
+                            color: index.$primary_color;
+                        }
+                    }
+                }
+            }
+
+            .review_paragraph {
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: index.$inter;
+                    color: #000;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .customer_part {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .customer_image {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                img {
+                    width: 30px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+
+                h2 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: index.$inter;
+                    color: #000;
+                }
+            }
+
+            .customer_love {
+                a {
+                    font-size: 18px;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    .hero_review2 {
+        width: 221px;
+        padding: 7px 16px;
+        background: #fff;
+        border-radius: 11px;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+        position: absolute;
+        top: 382px;
+        left: 0;
+        .review_text {
+            padding: 17px 21px 42px 21px;
+            background: #F1F3F7;
+            border-radius: 11px;
+
+            .review_star {
+                ul {
+                    display: flex;
+                    gap: 5px;
+
+                    li {
+                        i {
+                            font-size: 17px;
+                            color: index.$primary_color;
+                        }
+                    }
+                }
+            }
+
+            .review_paragraph {
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: index.$inter;
+                    color: #000;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .customer_part {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .customer_image {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                img {
+                    width: 30px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+
+                h2 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: index.$inter;
+                    color: #000;
+                }
+            }
+
+            .customer_love {
+                a {
+                    font-size: 18px;
+                    color: #000;
+                }
+            }
+        }
+    }
 }
