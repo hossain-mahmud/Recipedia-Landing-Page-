@@ -8,3 +8,18 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.about_left{
+    width: 244px;
+    border-radius: 10px;
+    padding: 25px;
+    background: #fff;
+    margin-top: 30%;
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: index.$inter;
+        color: index.$secondary_color;
+    }
+
+}
