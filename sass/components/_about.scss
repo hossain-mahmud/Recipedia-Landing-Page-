@@ -23,3 +23,37 @@
     }
 
 }
+.about_right{
+    width: 560px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 57px 45px 40px 45px;
+    .about_right_text{
+        h2{
+            font-size: 40px;
+            font-weight: 600;
+            font-family: index.$inter;
+            color: #000;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            font-family: index.$inter;
+            color: #000;
+            line-height: 30px;
+            margin:30px 0;
+        }
+    }
+    .about_button{
+        a{
+            padding: 20px 40px;
+            background: index.$primary_color;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: index.$inter;
+            letter-spacing: .5px;
+            color: #fff;
+        }
+    }
+}
